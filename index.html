@@ -7,25 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main">
-      <div class="button-container">
-        <button id="decrease">-</button>
+    <div class="main flex center column margin-top-lg align-center">
+      <div class="button-container flex">
+        <button id="decrease" class="counter-btn">-</button>
         <h3 class="counterResults">0</h3>
-        <button id="increase">+</button>
-        <div class="result">
-          <h3 id="top-result">Result: </h3>
-        </div>
-        <div class="control-container">
-          <button id="save" class="btn">
-            Save
-          </button>
-          <div class="control-container">
-          <button id="reset-btn" class="btn">
-            Reset
-          </button>
-        </div>
+        <button id="increase" class="counter-btn">+</button>
+      </div>
+      <div class="result">
+        <h3 id="top-result">Result:</h3>
+      </div>
+      <div class="control-container flex">
+        <button id="save" class="btn">Save</button>
+
+        <button id="reset-btn" class="btn">Reset</button>
       </div>
     </div>
+
     <script src="main.js"></script>
   </body>
 </html>
