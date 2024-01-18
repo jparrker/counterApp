@@ -107,7 +107,6 @@ section {
 }
 body {
   line-height: 1;
-  background-color: #e0e0e2;
 }
 button {
   font-size: 20px;
@@ -266,7 +265,7 @@ table {
   display: flex;
   background-color: #fff;
   padding: 5px;
-  gap: 20px;
+  gap: 5px;
   justify-content: center;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -294,6 +293,7 @@ table {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 26px;
+  color: green;
 }
 
 #decrease {
@@ -303,7 +303,29 @@ table {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 26px;
+  color: red;
 }
 .control-container {
   margin-top: 25px;
+  gap: 16px;
+}
+
+#top-result {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 26px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  background-color: #d3d3d3;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vw;
+  background-color: #e0e0e2;
 }
